@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(96, 93, 150, 1) 0%,
+    rgba(163, 36, 36, 1) 41%,
+    rgba(69, 47, 150, 1) 100%
+  );
+}
+
+table {
+  height: 400px;
+  width: 850px;
+  border-radius: 3px;
+  margin: 250px auto;
+  background-color: #25c096;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.fixed {
+  background-color: #66d4b7;
+}
+
+td {
+  border-bottom: 1px solid #2ac0b5;
+}

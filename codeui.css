@@ -1,0 +1,49 @@
+div {
+  background-color: #333332;
+}
+p {
+  width: 950px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  font-size: 150px;
+  text-align: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, red, fuchsia);
+  animation-name: gradient;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes gradient {
+  25% {
+    background-image: linear-gradient(
+      to right,
+      rgb(172, 221, 156),
+      rgb(173, 16, 173)
+    );
+  }
+  50% {
+    background-image: linear-gradient(
+      to right,
+      rgb(211, 183, 183),
+      rgb(112, 96, 112)
+    );
+  }
+  75% {
+    background-image: linear-gradient(
+      to right,
+      rgb(218, 43, 43),
+      rgb(79, 159, 117)
+    );
+  }
+  100% {
+    background-image: linear-gradient(
+      to right,
+      rgb(10, 10, 47),
+      rgb(95, 14, 95)
+    );
+  }
+}

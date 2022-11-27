@@ -8,42 +8,53 @@ p {
   margin-right: auto;
   margin-top: 200px;
   font-size: 150px;
+  font-weight: bold;
+
   text-align: center;
   color: transparent;
   -webkit-background-clip: text;
-  background-image: linear-gradient(to right, red, fuchsia);
+  background-image: linear-gradient(
+    90deg,
+    rgba(96, 93, 150, 1) 0%,
+    rgba(122, 157, 36, 1) 38%,
+    rgba(69, 47, 150, 1) 100%
+  );
   animation-name: gradient;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
 @keyframes gradient {
   25% {
     background-image: linear-gradient(
-      to right,
-      rgb(172, 221, 156),
-      rgb(173, 16, 173)
+      90deg,
+      rgba(96, 93, 150, 1) 0%,
+      rgba(36, 157, 66, 1) 38%,
+      rgba(69, 47, 150, 1) 100%
     );
   }
   50% {
     background-image: linear-gradient(
-      to right,
-      rgb(211, 183, 183),
-      rgb(112, 96, 112)
+      90deg,
+      rgba(96, 93, 150, 1) 0%,
+      rgba(36, 150, 157, 1) 38%,
+      rgba(69, 47, 150, 1) 100%
     );
   }
   75% {
     background-image: linear-gradient(
-      to right,
-      rgb(218, 43, 43),
-      rgb(79, 159, 117)
+      90deg,
+      rgba(96, 93, 150, 1) 0%,
+      rgba(157, 36, 156, 1) 38%,
+      rgba(69, 47, 150, 1) 100%
     );
   }
   100% {
     background-image: linear-gradient(
-      to right,
-      rgb(10, 10, 47),
-      rgb(95, 14, 95)
+      90deg,
+      rgba(96, 93, 150, 1) 0%,
+      rgba(157, 36, 104, 1) 38%,
+      rgba(69, 47, 150, 1) 100%
     );
   }
 }
